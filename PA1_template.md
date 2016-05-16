@@ -5,7 +5,7 @@
 This assignment is about using a large amount data of personal physical movement using activity monitoring devices such as a Fitbit, Nike Fuelband, or Jawbone Up. This device take measurements on selected volunteer regularly to improve their health, to find patterns in their behavior. The device will collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
 
 ```{r include=FALSE}
-
+library(knitr)
 library(lattice)
 setwd("C:\\Users\\Onwer\\Documents\\R")
 
